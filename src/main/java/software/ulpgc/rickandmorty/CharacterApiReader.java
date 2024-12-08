@@ -6,7 +6,7 @@ import org.jsoup.Jsoup;
 import java.io.IOException;
 
 public class CharacterApiReader implements CharacterReader{
-    private int currentId = 1;
+    private int currentId = 0;
 
 
     @Override

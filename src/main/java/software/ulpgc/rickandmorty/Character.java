@@ -11,9 +11,9 @@ public class Character {
     private final String image;
 
     public Character(CharacterGetResponse.Location location, String image, CharacterGetResponse.Origin origin, String gender, String species, String status, String name, int id) {
-        this.location = location;
+        this.location = String.valueOf(location);
         this.image = image;
-        this.origin = origin;
+        this.origin = String.valueOf(origin);
         this.gender = gender;
         this.species = species;
         this.status = status;
