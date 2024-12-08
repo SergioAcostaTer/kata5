@@ -1,5 +1,10 @@
 package software.ulpgc.rickandmorty;
 
+import software.ulpgc.rickandmorty.io.CharacterApiAdapter;
+import software.ulpgc.rickandmorty.io.CharacterApiReader;
+import software.ulpgc.rickandmorty.io.CharacterJsonDeserializer;
+import software.ulpgc.rickandmorty.io.CharacterLoader;
+
 public class Main {
     public static void main(String[] args) {
         CharacterLoader loader = new CharacterLoader(

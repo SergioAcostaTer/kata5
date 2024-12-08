@@ -1,4 +1,4 @@
-package software.ulpgc.rickandmorty;
+package software.ulpgc.rickandmorty.io;
 
 public interface CharacterReader {
     String read();

@@ -1,13 +1,16 @@
-package software.ulpgc.rickandmorty;
+package software.ulpgc.rickandmorty.io;
+
+import software.ulpgc.rickandmorty.contracts.CharacterGetResponse;
+import software.ulpgc.rickandmorty.model.Character;
 
 public class CharacterApiAdapter implements CharacterAdapter{
     @Override
-    public Character adapt(Object response) {
+    public software.ulpgc.rickandmorty.model.Character adapt(Object response) {
         return adapt((CharacterGetResponse.CharacterData) response);
     }
 
 
-    private Character adapt(CharacterGetResponse.CharacterData response){
+    private software.ulpgc.rickandmorty.model.Character adapt(CharacterGetResponse.CharacterData response){
         return new Character(
                 response.location(),
                 response.image(),

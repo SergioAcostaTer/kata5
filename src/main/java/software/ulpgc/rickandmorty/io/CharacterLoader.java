@@ -1,4 +1,6 @@
-package software.ulpgc.rickandmorty;
+package software.ulpgc.rickandmorty.io;
+
+import software.ulpgc.rickandmorty.model.Character;
 
 public class CharacterLoader {
     private final CharacterReader reader;

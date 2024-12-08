@@ -1,6 +1,7 @@
-package software.ulpgc.rickandmorty;
+package software.ulpgc.rickandmorty.io;
 
 import com.google.gson.Gson;
+import software.ulpgc.rickandmorty.contracts.CharacterGetResponse;
 
 public class CharacterJsonDeserializer implements CharacterDeserializer{
     @Override

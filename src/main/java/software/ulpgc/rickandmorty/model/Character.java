@@ -1,4 +1,6 @@
-package software.ulpgc.rickandmorty;
+package software.ulpgc.rickandmorty.model;
+
+import software.ulpgc.rickandmorty.contracts.CharacterGetResponse;
 
 public class Character {
     private int id;

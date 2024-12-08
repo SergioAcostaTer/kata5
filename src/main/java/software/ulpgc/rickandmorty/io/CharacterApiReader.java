@@ -1,4 +1,4 @@
-package software.ulpgc.rickandmorty;
+package software.ulpgc.rickandmorty.io;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;

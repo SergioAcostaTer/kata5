@@ -1,4 +1,4 @@
-package software.ulpgc.rickandmorty;
+package software.ulpgc.rickandmorty.contracts;
 
 import java.util.List;
 
